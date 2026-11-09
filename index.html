@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Pengelolaan Surat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="top-header">
+        <h1>COTS 1 ProWeb</h1>
+        <div class="user-info">
+            Hi, 103092400070 - DIRGA RAYA FIRNANDA
+        </div>
+    </header>
+
+    <nav class="toolbar">
+        <div class="toolbar-left">
+            <a href="#" class="toolbar-button active-button">
+                <img src="ICONS/kotak-masuk-abu.svg" alt="">
+                Incoming Letter
+            </a>
+
+            <a href="#" class="toolbar-button">
+                <img src="ICONS/folder-abu.svg" alt="">
+                My Folder
+            </a>
+        </div>
+
+        <form class="search-form">
+            <input type="search" placeholder="Search ...">
+            <button type="button" aria-label="Search">
+                <img src="ICONS/cari-abu-gelap.svg" alt="">
+            </button>
+        </form>
+    </nav>
+
+    <div class="main-layout">
+
+        <aside class="sidebar">
+
+            <div class="sidebar-heading">
+                Incoming Letter
+            </div>
+
+            <article class="letter-item">
+
+                <img
+                    class="letter-icon"
+                    src="ICONS/surat-abu-muda.svg"
+                    alt=""
+                >
+
+                <div class="letter-content">
+
+                    <div class="letter-top">
+                        <strong>
+                            Direktur Pusat Teknologi Informasi
+                            TELKOM UNIVERSITY
+                        </strong>
+
+                        <time>
+                            14 Oct<br>
+                            14:11
+                        </time>
+                    </div>
+
+                    <p>
+                        Tindak Lanjut Permohonan Perubahan
+                        Dosen Wali
+                    </p>
+
+                </div>
+            </article>
+
+            <article class="letter-item">
+
+                <img
+                    class="letter-icon"
+                    src="ICONS/surat-abu-muda.svg"
+                    alt=""
+                >
+
+                <div class="letter-content">
+
+                    <div class="letter-top">
+                        <strong>
+                            Kepala Bagian Admisi Internasional
+                            Telkom University
+                        </strong>
+
+                        <time>
+                            14 Oct<br>
+                            11:26
+                        </time>
+                    </div>
+
+                    <p>
+                        Undangan Koordinasi Registrasi
+                        Mahasiswa Asing
+                    </p>
+
+                </div>
+            </article>
+
+        </aside>
+
+        <main class="content">
+
+            <div class="dashboard-tab">
+                Dashboard
+            </div>
+
+            <div class="create-buttons">
+
+                <a href="#">
+                    <img src="ICONS/dokumen-abu.svg" alt="">
+                    Create Internal Letter
+                </a>
+
+                <a href="#">
+                    <img src="ICONS/dokumen-abu.svg" alt="">
+                    Create External Letter
+                </a>
+
+                <a href="#">
+                    <img src="ICONS/percakapan-putih.svg" alt="">
+                    Create Invitational Letter
+                </a>
+
+            </div>
+
+            <section class="summary-cards">
+
+                <article class="summary-card green">
+
+                    <div class="card-main">
+
+                        <img
+                            class="card-icon"
+                            src="ICONS/kotak-masuk-putih.svg"
+                            alt=""
+                        >
+
+                        <div class="card-information">
+                            <span class="number">0</span>
+                            <span class="card-label">
+                                Need Follow Up
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="card-footer">
+                        <span>View Details</span>
+                        <img src="ICONS/panah-hijau.svg" alt="">
+                    </a>
+
+                </article>
+
+                <article class="summary-card blue">
+
+                    <div class="card-main">
+
+                        <img
+                            class="card-icon"
+                            src="ICONS/dokumen-putih.svg"
+                            alt=""
+                        >
+
+                        <div class="card-information">
+                            <span class="number">0</span>
+                            <span class="card-label">
+                                Incoming Letter
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="card-footer">
+                        <span>View Details</span>
+                        <img src="ICONS/panah-biru.svg" alt="">
+                    </a>
+
+                </article>
+
+                <article class="summary-card red">
+
+                    <div class="card-main">
+
+                        <img
+                            class="card-icon"
+                            src="ICONS/percakapan-putih.svg"
+                            alt=""
+                        >
+
+                        <div class="card-information">
+                            <span class="number">0</span>
+                            <span class="card-label">
+                                Disposition
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="card-footer">
+                        <span>View Details</span>
+                        <img src="ICONS/panah-merah.svg" alt="">
+                    </a>
+
+                </article>
+
+            </section>
+
+            <section class="todo-section">
+
+                <div class="todo-header">
+
+                    <h2>Todo</h2>
+
+                    <div class="todo-search">
+
+                        <input
+                            type="search"
+                            placeholder="Search todo..."
+                        >
+
+                        <span>
+                            <img src="ICONS/cari-abu.svg" alt="">
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="todo-empty">
+                    You don’t have ToDo
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
